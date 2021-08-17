@@ -3,6 +3,6 @@ email: guolunhao@gmail.com
 description: 独行方行羁绊重，挥剑仗得守护心。
 baseurl: ''
 url: 'https://guolunhao.github.io'
-theme: minima
+theme: beautiful-jekyll-theme
 plugins:
   - jekyll-feed
