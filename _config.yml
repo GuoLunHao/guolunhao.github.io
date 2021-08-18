@@ -1,10 +1,11 @@
+minimal_mistakes_skin: default
 title: 郭伦昊的个人主页
+name: 郭伦昊
 email: guolunhao@gmail.com
 description: 独行方行羁绊重，挥剑仗得守护心。
 baseurl: ''
 url: 'https://guolunhao.github.io'
-theme: beautiful-jekyll-theme
-remote_theme: daattali/beautiful-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 exclude:
   - CHANGELOG.md
   - CNAME
@@ -17,3 +18,47 @@ exclude:
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+search: true
+locale: zh-CN
+words_per_minute: 200
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: '/categories/:name/'
+    tag: '/tags/:name/'
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: false
+      related: true
+      show_date: true
+
+author:
+  name: "郭伦昊"
+  avatar: "/assets/images/photo.png"
+  bio: "独行方行羁绊重，挥剑仗得守护心。" # Note: Markdown is allowed
+  location: "中国 北京"
+  links:
+    - label: "Weibo"
+      icon: "fab fa-fw fa-weibo"
+      url: "https://weibo.com/guolunhao"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/guolunhao"
