@@ -4,5 +4,16 @@ description: 独行方行羁绊重，挥剑仗得守护心。
 baseurl: ''
 url: 'https://guolunhao.github.io'
 theme: beautiful-jekyll-theme
+remote_theme: beautiful-jekyll-theme
+exclude:
+  - CHANGELOG.md
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - screenshot.png
+  - docs/
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
