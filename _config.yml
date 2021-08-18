@@ -20,6 +20,7 @@ plugins:
   - jekyll-sitemap
 search: true
 locale: zh-CN
+date_format: '%Y年%m月%d日'
 words_per_minute: 200
 category_archive:
   type: liquid
@@ -49,16 +50,15 @@ defaults:
       share: false
       related: true
       show_date: true
-
 author:
-  name: "郭伦昊"
-  avatar: "/assets/images/photo.png"
-  bio: "独行方行羁绊重，挥剑仗得守护心。" # Note: Markdown is allowed
-  location: "中国 北京"
+  name: 郭伦昊
+  avatar: /assets/images/photo.png
+  bio: 独行方行羁绊重，挥剑仗得守护心。
+  location: 中国 北京
   links:
-    - label: "Weibo"
-      icon: "fab fa-fw fa-weibo"
-      url: "https://weibo.com/guolunhao"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/guolunhao"
+    - label: Weibo
+      icon: fab fa-fw fa-weibo
+      url: 'https://weibo.com/guolunhao'
+    - label: GitHub
+      icon: fab fa-fw fa-github
+      url: 'https://github.com/guolunhao'
