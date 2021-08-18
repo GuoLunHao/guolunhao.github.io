@@ -18,7 +18,6 @@ source "https://rubygems.org"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "github-pages", "~> 217"
-  gem "jekyll-admin"
   gem "jekyll-include-cache"
 end
 
@@ -33,7 +32,6 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 gem "webrick", "~> 1.7"
-
 # theme
 #gem "minima", "~> 2.5"
 #gem "beautiful-jekyll-theme", "5.0.0"
