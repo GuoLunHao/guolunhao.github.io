@@ -4,7 +4,7 @@ description: 独行方行羁绊重，挥剑仗得守护心。
 baseurl: ''
 url: 'https://guolunhao.github.io'
 theme: beautiful-jekyll-theme
-remote_theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll
 exclude:
   - CHANGELOG.md
   - CNAME
