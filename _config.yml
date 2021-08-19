@@ -1,6 +1,6 @@
 minimal_mistakes_skin: default
 title: 郭伦昊的个人主页
-name: 郭伦昊
+name: guolunhao.github.io
 email: guolunhao@gmail.com
 description: 独行方行羁绊重，挥剑仗得守护心。
 baseurl: ''
@@ -52,10 +52,7 @@ defaults:
       related: true
       show_date: true
 analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-XZ15L6P4K9"
-    anonymize_ip: false
+  provider: "custom"
 author:
   name: 郭伦昊
   avatar: /assets/images/photo.png
