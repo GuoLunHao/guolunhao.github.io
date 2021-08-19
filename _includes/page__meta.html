@@ -28,6 +28,9 @@
         {% endif %}
       </span>
     {% endif %}
-    <span id="busuanzi_container_page_pv">浏览<span id="busuanzi_value_page_pv"></span>次</span>
+    {% if include.type != 'list' %}
+    <span id="busuanzi_container_page_uv"><span id="busuanzi_value_page_uv"></span>人读过<span id="busuanzi_value_page_pv"></span>次</span>
+    {% endif %}
+
   </p>
 {% endif %}
