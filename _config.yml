@@ -53,6 +53,9 @@ defaults:
       show_date: true
 analytics:
   provider: "custom"
+  google:
+    tracking_id: "G-XZ15L6P4K9"
+    anonymize_ip: false
 author:
   name: 郭伦昊
   avatar: /assets/images/photo.png
