@@ -56,6 +56,9 @@ analytics:
   google:
     tracking_id: "G-XZ15L6P4K9"
     anonymize_ip: false
+google:
+  search_engine_id: d2aaf31997f3ae812
+og_image: /assets/images/photo.png
 author:
   name: 郭伦昊
   avatar: /assets/images/photo.png
