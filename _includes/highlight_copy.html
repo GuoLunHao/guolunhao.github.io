@@ -5,8 +5,8 @@
     var copyButton = document.createElement("button");
     copyButton.className = "copy";
     copyButton.type = "button";
-    copyButton.ariaLabel = "Copy code to clipboard";
-    copyButton.innerText = "Copy";
+    copyButton.ariaLabel = "复制到剪切板";
+    copyButton.innerText = "复制到剪切板";
 
     codeBlock.append(copyButton);
 
@@ -14,11 +14,11 @@
       var code = codeBlock.querySelector("code").innerText.trim();
       window.navigator.clipboard.writeText(code);
 
-      copyButton.innerText = "Copied";
+      copyButton.innerText = "已复制";
       var fourSeconds = 4000;
 
       setTimeout(function () {
-        copyButton.innerText = "Copy";
+        copyButton.innerText = "复制到剪切板";
       }, fourSeconds);
     });
   });
