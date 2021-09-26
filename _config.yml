@@ -52,6 +52,10 @@ defaults:
       related: true
       show_date: true
       classes: wide
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 analytics:
   provider: "custom"
   google:
