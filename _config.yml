@@ -19,7 +19,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-include-cache
-  - jekyll-spaceship
 search: true
 locale: zh-CN
 date_format: "%Y年%m月%d日"

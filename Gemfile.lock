@@ -149,11 +149,6 @@ GEM
       jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-spaceship (0.10.1)
-      gemoji (~> 3.0)
-      jekyll (>= 3.6, < 5.0)
-      nokogiri (~> 1.6)
-      rainbow (~> 3.0)
     jekyll-titles-from-headings (0.5.3)
       jekyll (>= 3.3, < 5.0)
     jekyll-watch (2.2.1)
@@ -188,7 +183,6 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
     racc (1.5.2)
-    rainbow (3.0.0)
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -231,7 +225,6 @@ DEPENDENCIES
   github-pages (~> 217)
   jekyll-feed (~> 0.12)
   jekyll-include-cache
-  jekyll-spaceship
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
