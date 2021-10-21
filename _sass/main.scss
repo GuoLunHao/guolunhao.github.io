@@ -1,38 +1,54 @@
 pre.highlight > button {
-    opacity: 0;
+  opacity: 0;
+}
+
+pre.highlight:hover > button {
+  opacity: 1;
+}
+
+pre.highlight > button:active,
+pre.highlight > button:focus {
+  opacity: 1;
+}
+pre.highlight > button {
+  color: #fff;
+  position: absolute;
+  right: 1.2rem;
+  top: 1.2rem;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  height: 38px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+table {
+  border-left: 1px solid #000000;
+  width: 100%;
+  word-wrap: break-word;
+  word-break: break-all;
+  thead {
+    border-top: 1px solid #000000;
   }
-  
-  pre.highlight:hover > button {
-    opacity: 1;
+  th {
+    text-align: center;
   }
-  
-  pre.highlight > button:active,
-  pre.highlight > button:focus {
-    opacity: 1;
+  th,
+  td {
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
   }
-  pre.highlight > button {
-    color: #fff;
-    position: absolute;
-    right: 1.2rem;
-    top: 1.2rem;
-    opacity: 0;
-    background: rgba(0, 0, 0, 0.7);
-    display: inline-block;
-    height: 38px;
-    width: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 11px;
-    font-weight: 600;
-    line-height: 38px;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    text-decoration: none;
-    white-space: nowrap;
-    border-radius: 4px;
-    border: 1px solid #bbb;
-    cursor: pointer;
-    box-sizing: border-box;
-  }
-  
+}
