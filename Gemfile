@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "~> 3.9.5"
+gem "jekyll", "~> 3.10.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 
@@ -17,7 +17,7 @@ gem "jekyll", "~> 3.9.5"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.17.0"
-  gem "github-pages", "~> 231"
+  gem "github-pages", "~> 232"
   gem "jekyll-include-cache"
 end
 
@@ -29,9 +29,9 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+gem "wdm", ">= 0.1.0", :platforms => [:mingw, :x64_mingw, :mswin]
 
-gem "webrick", "~> 1.7"
+gem "webrick", "~> 1.8"
 # theme
 #gem "minima", "~> 2.5"
 #gem "beautiful-jekyll-theme", "5.0.0"
