@@ -20,4 +20,4 @@ bundle update github-pages
 
 ## 依赖版本
 
-<https://pages.github.com/versions>
+<https://pages.github.com/versions.json>
